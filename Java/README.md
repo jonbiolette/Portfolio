@@ -29,9 +29,5 @@ These files where pulled from the resteraunt picker app that I worked on for my 
 ## Link to application [demo](https://youtu.be/2T9k_QbGCe8).
 
 
-
-
-
-
-
 ## Java Projects
+- 2 prodjects from my last dedicated java programming class showcasing a binary search tree and linked lists
