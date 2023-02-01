@@ -26,7 +26,7 @@ These files where pulled from the resteraunt picker app that I worked on for my 
 - There are three buttons on the top of the screen that the user can pick from that will decide the amount they are willing to pay, choices include $, $$, and $$$. 
 - A Seekbar at the bottom of the screen to decide the distance willing to travel. Google Maps deals distance in meters and not miles, in the background miles are being converted but could easily be changed to meters with a quick change.
 
-## Link to application [demo](https://youtu.be/2T9k_QbGCe8).
+Link to application [demo](https://youtu.be/2T9k_QbGCe8).
 
 
 ## Java Projects
