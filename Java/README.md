@@ -21,6 +21,7 @@ The purpose of this application was to find random locations for the user to eat
 - A Seekbar at the bottom of the screen to decide the distance willing to travel. Google Maps deals distance in meters and not miles, in the background miles are being converted but could easily be changed to meters with a quick change.
 
 Link to application [demo](https://youtu.be/2T9k_QbGCe8).
+
 Link to full [full presentation](https://drive.google.com/file/d/1Hh4nDhOhqB-uP2VT50_7biyhTkalrU2Z/view?usp=sharing).
 
 ## Java Projects
