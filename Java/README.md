@@ -1,15 +1,9 @@
 ## Code Day Labs Internship 2022
 The purpose of this application was to find random locations for the user to eat at. 
 ### MapsActivity:
--	MapsActivity is the main activity the app is built around, within this activity 5 other activities are launched, and I will break 3 of them down in sequence:
-  - MapsActivity is launched upon the user tapping the “Let’s Eat” button at the bottom of the UserInput screen, with this UserInput brings food preference, price preference, and distance willing to travel to MapsActivity.
-  -	The first 176 lines of MapsActivity deals with user permissions and getting the map prepped. At line 181 within onLocationReady LoadingScreen is launched.
-  -	LoadingScreen:
-  -	A splash screen set in place to let the user know that we are gathering results instead of displaying a blank screen.
-  -	Loading Screens load time is dependent on the search radius, the larger the radius the more time LoadingScreen is given.
-  -	While LoadingScreen is running MapsActivity gets the users current location, places a marker on the map and with the user’s location launches TextSearch
-  - MapsActivity pins all locations on the map and waits for the user to pick locations, when a pin is clicked on the user can choose to either add it to their list of liked restaurants, go to their website, or close the tab if not interested. The marker will not change color unless they add it to their list.
-- When a winner is selected the user is given the choice to go to the website or get directions via Google maps.
+ - MapsActivity is launched upon the user tapping the “Let’s Eat” button at the bottom of the UserInput screen, with this UserInput brings food preference, price preference, and distance willing to travel to MapsActivity.
+ - MapsActivity pins all locations on the map and waits for the user to pick locations, when a pin is clicked on the user can choose to either add it to their list of liked restaurants, go to their website, or close the tab if not interested. The marker will not change color unless they add it to their list.
+ - When a winner is selected the user is given the choice to go to the website or get directions via Google maps.
 
 ### TextSearch
 - TextSearch’s main purpose is to return a list of businesses that meet the criteria of the user’s search
