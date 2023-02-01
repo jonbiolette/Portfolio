@@ -1,5 +1,5 @@
-## Android Studio
-These files where pulled from the resteraunt picker app that I worked on for my summer internship 2022. The purpose of this application was to find random locations for the user to eat at. 
+## Code Day Labs Internship 2022
+The purpose of this application was to find random locations for the user to eat at. 
 ### MapsActivity:
 -	MapsActivity is the main activity the app is built around, within this activity 5 other activities are launched, and I will break 3 of them down in sequence:
   - MapsActivity is launched upon the user tapping the “Let’s Eat” button at the bottom of the UserInput screen, with this UserInput brings food preference, price preference, and distance willing to travel to MapsActivity.
