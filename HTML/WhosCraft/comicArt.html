@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comics</title>
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="gallary">
+
+  <ul class="social">
+    <li><a href="https://www.instagram.com/who_s_craft/">
+        <img src="images/instagramLogo.png" alt="Instagram logo">
+      </a></li>
+  </ul>
+  <header>
+    <nav id="primary">
+      <a href="index.html">
+        <img id="logo" src="images/WhosCraftLogo2.png" alt="CraftLogo">
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Gallary</a></li>
+        <li><a href="about.html">About the artist</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div id="wrapper">
+    <main class="comicMain">
+      <div class="slideshow-container">
+        <a href="https://www.instagram.com/p/CPPVoFjHyae/">
+          <div class="mySlides">
+            <img src="images/Comic/comicTorts1.jpg" alt="comic slide 1" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images/Comic/comicTorts2.jpg" alt="comic slide 2" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images/Comic/comicTort3.jpg" alt="comic slide 3" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images/Comic/comicTorts4.jpg" alt="comic slide 4" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images/Comic/comicTort5.jpg" alt="comic slide 5" style="width:100%">
+          </div>
+        </a>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <!-- JavaScript for Slideshow -->
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+    </main>
+    <aside class="comicAside">
+      <h2 class="comicH2">The Three Amigo's</h2>
+      <p class="comicPsub">These three always look like they haven’t eaten for the entire week. Even though pets don’t
+        know our language, at some moments, you do feel connected with them. How amazing, especially when you have food
+        in your hands!</p>
+
+      <p class="comicP">We have three Russian tortoises all cohabitating together in a large enclosure we hand made last
+        fall. Fred was our first, she was a resue that we recieved from a friend of ours that could no longer care for
+        her. Major was next he was purchased at a pet store when we were just looking for hides for Fred, but when we
+        saw him we had to get him! And Noko our baby, was also a rescue. Even though they are small and move slow you
+        can always tell who is who based on their distict personalities!</p>
+    </aside>
+
+    <!-- <a href="" class="previous">&laquo; Previous</a>
+<a href="" class="next">Next &raquo;</a> -->
+
+
+
+
+
+    <footer>
+      <ul>
+        <li>Copyright &copy; 2021</li>
+        <li>All Rights Reserved</li>
+      </ul>
+
+
+    </footer>
+  </div>
+</body>
+
+</html>

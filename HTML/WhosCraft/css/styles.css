@@ -1,0 +1,446 @@
+/* Styles for WhosCraft */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: white;
+    padding: 100px;
+}
+
+.home #wrapper,
+.gallary #wrapper{
+    width: 1000px;
+    margin: auto;
+
+
+}
+/* ----------------div----------------- */
+
+#wrapper{
+    width: 940px;
+    margin: auto;
+}
+#logo{
+    position: relative;
+    margin-bottom: 25px;
+
+}
+header{
+    position:fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+/* ----------------MAIN----------------- */
+
+main{
+    width: 940px;
+    padding-bottom: 20px;
+}
+
+.home main,
+.gallary main{
+    width:auto;
+}
+
+/* ----------------h1----------------- */
+
+
+.home main h1,
+.gallary main h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.home main h1,
+.gallary main h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* ----------------HOME----------------- */
+
+.home main p{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/* ----------------ABOUT----------------- */
+
+.about main{
+    float: left;
+    width: 580px;
+    background: rgb(228, 228, 228);
+    border-radius: 3%;
+}
+.about main img{
+    border-radius: 3%;
+}
+
+.about aside{
+    float: right;
+    width: 340px;
+    background-color: #BCD5D1;
+    padding: 0 0 0 0;
+    border:lightgrey;
+    border-radius: 7%;
+    margin-top: 50px;
+}
+
+.about aside h3{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0;
+}
+.about aside h5{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.about aside img{
+   
+    margin: auto;
+    
+    border-radius: 7%;
+}
+
+.about p{
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* ----------------THANKS----------------- */
+
+.thanks main{
+    width: 940px;
+    padding-bottom: 10px;
+
+}
+.thanks main img{
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------COMIC----------------- */
+.comicMain{
+    width: 580;
+    float: left;
+}
+.comicAside{
+
+        float: right;
+        width: 300px;
+        margin-top: 50px;
+        background-color: #BCD5D1;
+        border-style: groove;
+        border-color: #BCD5D1;
+        border-radius: 5px;
+}
+.comicH2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.comicPsub{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.comicP{
+    padding: 10px;
+}
+
+        
+
+
+
+/* ----------------.row/.third----------------- */
+
+.row{
+    clear:both;
+    margin: auto auto 20px 25px;
+    overflow: hidden;
+
+
+}
+.third{
+    padding-top: 10px;
+    width: 300px;
+    float: left;
+    padding-left: 20px;
+}
+.third img{
+    border-radius: 3%;
+}
+.third:last-of-type{
+    margin-right: 0;
+}
+.third img + h3{
+    text-align: center;
+    margin: 10px 0 8px 0;
+}
+.third p{
+    text-align: center;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 5px;
+}
+.third + .gallary p{
+    background-color: #BCD5D1;
+}
+
+/* ----------------.social----------------- */
+
+.social{
+    position:fixed;
+    top:400px;
+    right:5px;
+    list-style-type: none;
+}
+.social li{
+    margin-bottom: 8px;
+}
+#contact{
+    float:right;
+    padding: 15px;
+    /* position: relative; */
+}
+/* ----------------#primary----------------- */
+
+#primary{
+    height: 50px;
+    line-height: 50px;
+    background: #ffde52;
+}
+#primary ul{
+    width: 1000px;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 90px;
+}
+#primary li{
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 1.3em;
+}
+#primary a{
+    text-decoration:none;
+    color: black;
+    display: block;
+}
+#primary a:hover{
+    background-color: #fedda1;
+    color: black;
+    
+}
+#primary img{
+    float:left;
+    padding-left: 50px;
+}
+
+.home #primary li:nth-child(1) a,
+.gallary #primary li:nth-child(2) a,
+.about #primary li:nth-child(3) a,
+.contact #primary li:nth-child(4) a
+ {
+    background-color: #fedda1;
+    color: black;
+}
+/* ----------------ASIDE----------------- */
+
+aside{
+    width: 250px;
+    float: right;
+    padding: 15px;
+    margin: 20px auto 10px 20px;  
+
+}
+
+.aside img{
+    margin-top: 20px;
+    padding:10px;
+
+}
+.inner-header{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* ----------------.top----------------- */
+
+.top{
+    clear:both;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.top p{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 900px;
+    font-size: 1.2em;
+}
+
+/* ----------------form----------------- */
+
+form{
+    float: left;
+    margin-left: 5px;
+    width: 500px;
+    max-width: 500px;
+    background: #BCD5D1;
+    margin-bottom: 25px;
+}
+fieldset{
+    padding: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+legend{
+    font: size 1.3em;
+}
+input{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"]{
+
+    height:auto;
+    width: auto;
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+select{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+width: auto;
+}
+
+form ul{
+    list-style-type: none;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    height:150px;
+    margin-bottom: 10px;
+
+}
+/* ----------------SLIDESHOW----------------- */
+
+.slideshow-container {
+    float: left;
+    clear: both;
+    max-width: 580px;
+    margin: auto 0 auto 50px;
+    
+
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    
+    right: 598px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    
+    left: 275px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #BCD5D1;
+  }
+  
+
+/* ----------------NEXT/PREV----------------- */
+/* a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 300px auto 100px auto;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  } */
+
+/* ----------------FOOTER----------------- */
+
+footer{
+    padding-top: 10px;
+    height: 50px; 
+    line-height: 50px;  
+    clear: both;
+    font-size: .9em;
+    margin: 0 auto;
+    text-align: center;
+}
+footer ul{
+    margin:0px;
+}
+footer li{
+    list-style-type: none;
+    display: inline;
+    color:#666
+}
+footer img{
+    margin-top: 5px;
+}
+footer a{ 
+    color:#666;
+    padding-left: 10px;
+}
+
+

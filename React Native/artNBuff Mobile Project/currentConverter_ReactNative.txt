@@ -1,0 +1,26 @@
+   const converter = async (props: string) => {
+      let toCurrency = props;
+      const options = {
+        method: 'GET',
+        headers: {
+          'X-RapidAPI-Key': 'YOUR_API_KEY',
+          'X-RapidAPI-Host': 'currency-converter5.p.rapidapi.com',
+        },
+      };
+      async function currencyExchange(props: string){
+        fetch(
+          'https://currency-converter5.p.rapidapi.com/currency/convert?format=json&from=INR&to=' +
+            props +'&amount=1', options)
+          .then(async (response) =>  await response.json())
+          .then(async(response) => {
+            exchangeRate = response.rates[props].rate;
+            return exchangeRate;
+          })
+          .catch((err) => console.error(err));
+      }
+
+    return currencyExchange(toCurrency);
+    };
+    //pass props here
+    converter("USD");
+    setTimeout(() => console.log("Exchange rate: " +  exchangeRate), 500);
