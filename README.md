@@ -1,6 +1,6 @@
 # Git Portfolio
 
-Files listed above are a representation of the work I have completed so far most of which being school prodjects and some capstone/practicum work.
+Files listed above are a representation of the work I have completed most of which being school prodjects and some capstone/practicum work.
 
 - [HTML/WhosCarft](https://github.com/jonbiolette/Portfolio/tree/main/HTML/WhosCraft) was built in 2021 as web development prodject to promote my wifes artistic skills. Displaying her art in a gallery format with links back to her instagram in hopes of her finding a stronger following.
 
