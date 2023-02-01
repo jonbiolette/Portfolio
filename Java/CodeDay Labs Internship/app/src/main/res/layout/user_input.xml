@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/distanceSeekbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:layout_marginTop="100dp"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/textView_distance"
+        android:layout_width="286dp"
+        android:layout_height="54dp"
+        android:layout_alignBottom="@id/button_enter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="318dp"
+        android:text="Distance Willing to Travel"
+        android:textColor="#494949"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="548dp"
+        android:background="#0099FF"
+        android:text="Lets Eat!"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/minPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="$" />
+
+    <Button
+        android:id="@+id/midPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:text="$$" />
+
+    <Button
+        android:id="@+id/maxPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="100dp"
+        android:text="$$$" />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:text="Price Willing to Pay"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/distanceSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="300dp"
+        android:max="9"
+        android:maxWidth="150dp"
+        android:progress="1"
+        android:scrollbarSize="20dp" />
+
+</RelativeLayout>

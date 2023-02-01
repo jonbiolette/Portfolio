@@ -20,6 +20,9 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 
+//From here we want to receive a place ID find its location for recentering of the map
+//and business information, returning infomration for the info window
+
 public class PlaceID {
     private GoogleMap mMap;
     public void find(String id) {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/snippet"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:ellipsize="end"
+            android:maxLines="12"
+            android:textColor="#000"
+            android:textSize="10sp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/addButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:clickable="true"-->
+<!--            android:linksClickable="true"-->
+<!--            android:longClickable="true"-->
+<!--            android:onClick="onClick"-->
+<!--            android:text="@string/add"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorLink="@color/purple_500"-->
+<!--            android:textSize="10dp"-->
+<!--            android:textStyle="bold" />-->
+    </LinearLayout>
+</LinearLayout>

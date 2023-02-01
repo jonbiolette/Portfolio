@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cuisineImage">100dp</dimen>
+    <dimen name="h1_1">22dp</dimen>
+    <dimen name="h2_2">18dp</dimen>
+    <dimen name="h3_3">14dp</dimen>
+</resources>

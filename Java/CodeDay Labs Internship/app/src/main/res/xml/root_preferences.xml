@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        app:title="@string/Profile_Options">
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/displayname_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="@string/visibility"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_history_24"
+        app:title="@string/search_history">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/save_history" />
+
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="@string/save_all"
+            app:summaryOn="@string/save_30"
+            app:title="@string/keep_length" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification Settings">
+
+     <SeekBarPreference
+         android:key="volume_notifications"
+         app:title="Volume"
+         app:showSeekBarValue="true"
+         app:defaultValue="50"/>
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        app:title="Disable Notificatinos"
+        android:summaryOn="Notifications Disabled"
+        android:summaryOff="Notifications Enabled"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_baseline_network_check_24"
+        android:title="Network Settings">
+
+        <SwitchPreferenceCompat
+            android:key="data_usage"
+            app:title="Network Access"
+            android:summaryOff="Wifi Only"
+            android:summaryOn="Cellular Data and Wifi Access"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
